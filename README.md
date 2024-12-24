@@ -1,2 +1,2 @@
 # calculator-php
-Simple PHP calculator
+Simple PHP calculator with HTML UI
