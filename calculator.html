@@ -4,16 +4,16 @@
  <title>M2-Calculator</title>
  </head>
 <body>
- <form action="<?= $_SERVER['PHP']?>" method="get"></form>
+ <form action="<?= $_SERVER['PHP_SELF']?>" method="get"></form>
  <!--First number-->
  <div>
  <label for="number1">First</label>
- <input type="number" name="number1" id="number1" value="<?$y ?>">
+ <input type="number" name="number1" id="number1" value="<?= $y ?>">
  </div>
  <!--Second number-->
  <div>
  <label for="number2">Second</label>
- <input type="number" name="number2" id="number2" value="<?$y ?>">
+ <input type="number" name="number2" id="number2" value="<?= $y ?>">
  </div>
  <!--Math-->
  <div>
@@ -25,7 +25,7 @@
  <!--Answer-->
  <div>
  <label for="answer">Answer</label>
- <input type="number" id="answer" value ="<?=$result?>" disabled>
+ <input type="number" id="answer" value ="<?= $result ?>" disabled>
  </div>
  </body>
  </html>

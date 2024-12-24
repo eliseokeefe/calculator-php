@@ -28,6 +28,5 @@ if (isset($_GET['math'], $_GET['number1'], $_GET['number2'])) {
 } else {
     echo "Missing required parameters.";
 }
-?>
 
  
